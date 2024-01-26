@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px 120px;
+}
+
+#menu {
+    border-radius: 30px;
+    width: 100%;
+    background-color: black;
+    height: 56px;
+    line-height: 56px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu li {
+    list-style: none;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+}
