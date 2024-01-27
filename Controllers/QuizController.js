@@ -50,10 +50,7 @@ export class QuizController extends CoreController {
 
             var optionList = document.querySelectorAll('.option input');
             var selectList = {};
-
-            question.option.sort((a,b) => {
-                return Math.random()-0.5;
-            })
+            
             optionList.forEach(function (option) {
                 option.addEventListener('click', function() {
 
