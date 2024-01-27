@@ -107,6 +107,29 @@ export class Database {
                                 }
                             ],
                             "answers" : [3]
+                        },
+                        {
+                            "id" : 4,
+                            "content" : "Ngôn ngữ nào code được web",
+                            "options" : [
+                                {
+                                    "id" : 1,
+                                    "content" : "PHP"
+                                },
+                                {
+                                    "id" : 2,
+                                    "content" : "JavaScript"
+                                },
+                                {
+                                    "id" : 3,
+                                    "content" : "C++"
+                                },
+                                {
+                                    "id" : 4,
+                                    "content" : "Python"
+                                }
+                            ],
+                            "answers" : [1,2,4]
                         }
                     ]
                 }

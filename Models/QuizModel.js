@@ -14,4 +14,17 @@ export class QuizModel extends CoreModel {
             return item.id == id;
         })[0];
     }
+
+    getAnswerByQuiz(id) {
+        var quizz = this.db.data.quizz.filter(function(item) {
+            return item.id == id;
+        })[0];
+        var { question } = quizz;
+        question = question.map(function(question) {
+            return {
+                [question.id] : question.answers
+            }
+        })
+        return Object.assign(...question);
+    }
 }
