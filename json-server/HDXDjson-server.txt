@@ -1,0 +1,9 @@
+tải json server 
+--- npm install -g json-server
+
+chạy ra http http://localhost:3000/
+--- npx json-server json-server\db.json
+
+hoặc 
+
+--- json-server --watch json-server\db.json

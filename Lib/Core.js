@@ -1,5 +1,6 @@
 import { PageController } from '../Controllers/PageController.js';
 import { QuizController } from '../Controllers/QuizController.js';
+import { UserController } from '../Controllers/UserController.js';
 
 export class Core {
     controller = 'page'
@@ -22,6 +23,10 @@ export class Core {
                 break;
             case 'quizz':
                 var controller = new QuizController();
+                controller[this.method](this.params);
+                break;
+            case 'user':
+                var controller = new UserController();
                 controller[this.method](this.params);
                 break;
             default:

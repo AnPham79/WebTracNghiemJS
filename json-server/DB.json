@@ -1,0 +1,133 @@
+{
+    "user" : [
+        {
+            "id" : 1,
+            "name" : "Phạm Ngọc Bảo An",
+            "email" : "anpnb79@gmail.com",
+            "password" : "an123"
+        },
+        {
+            "id" : 2,
+            "name" : "Nguyễn Thông Thiên",
+            "email" : "thientt68@gmail.com",
+            "password" : "an123"
+        },
+        {
+            "id" : 3,
+            "name" : "Đoàn Nhật Hiếu",
+            "email" : "hieudn79@gmail.com",
+            "password" : "an123"
+        },
+        {
+            "id" : 4,
+            "name" : "Ninh Thái Hưng",
+            "email" : "hungnt79@gmail.com",
+            "password" : "an123"
+        }
+    ],
+    "quizz" : [
+        {
+            "id" : 1,
+            "name" : "Ôn tập kiến thức Js cơ bản - Phần 1",
+            "limit" : 1,
+            "time" : 15,
+            "startDate" : "2024-1-26 12:20:00",
+            "endDate" : "2024-2-10 23:59:00",
+            "score" : 10,
+            "question" : [
+                {
+                    "id" : 1,
+                    "content" : "Để xác định trình tự nhận tiêu điểm của phần tử thông qua bàn phím ta sử dụng thuộc tính:",
+                    "options" : [
+                        {
+                            "id" : 1,
+                            "content" : "Focus"
+                        },
+                        {
+                            "id" : 2,
+                            "content" : "Accesskey"
+                        },
+                        {
+                            "id" : 3,
+                            "content" : "Tabindex"
+                        },
+                        {
+                            "id" : 4,
+                            "content" : "Id"
+                        }
+                    ],
+                    "answers" : [3]
+                },
+                {
+                    "id" : 2,
+                    "content" : "JavaScript là ngôn ngữ lập trình nào?",
+                    "options" : [
+                        {
+                            "id" : 1,
+                            "content" : "Java"
+                        },
+                        {
+                            "id" : 2,
+                            "content" : "Python"
+                        },
+                        {
+                            "id" : 3,
+                            "content" : "PHP"
+                        },
+                        {
+                            "id" : 4,
+                            "content" : "JavaScript"
+                        }
+                    ],
+                    "answers" : [4]
+                },
+                {
+                    "id" : 3,
+                    "content" : "Đâu là cách đúng để khai báo một biến trong JavaScript?",
+                    "options" : [
+                        {
+                            "id" : 1,
+                            "content" : "variable myVar"
+                        },
+                        {
+                            "id" : 2,
+                            "content" : "var myVar"
+                        },
+                        {
+                            "id" : 3,
+                            "content" : "let myVar"
+                        },
+                        {
+                            "id" : 4,
+                            "content" : "const myVar"
+                        }
+                    ],
+                    "answers" : [3]
+                },
+                {
+                    "id" : 4,
+                    "content" : "Ngôn ngữ nào code được web",
+                    "options" : [
+                        {
+                            "id" : 1,
+                            "content" : "PHP"
+                        },
+                        {
+                            "id" : 2,
+                            "content" : "JavaScript"
+                        },
+                        {
+                            "id" : 3,
+                            "content" : "C++"
+                        },
+                        {
+                            "id" : 4,
+                            "content" : "Python"
+                        }
+                    ],
+                    "answers" : [1,2,4]
+                }
+            ]
+        }
+    ]
+}

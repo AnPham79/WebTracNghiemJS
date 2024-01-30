@@ -2,11 +2,12 @@
 // trang chủ, liên hệ, góp ý , giới thiệu
 import { CoreController } from './CoreController.js';
 import { QuizModel } from '../Models/QuizModel.js';
+import { UserModel } from  '../Models/UserModel.js';
 
 export class PageController extends CoreController {
     index() {
         var quizz = new QuizModel();
-        var data = quizz.getAll(); 
+        var data = quizz.getAll();
 
         this.loadView('index', function() {
             var codeHtml = '';
