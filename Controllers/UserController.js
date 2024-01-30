@@ -5,20 +5,20 @@ export class UserController extends CoreController {
     login() {
         var user = new UserModel();
         this.loadView('login', function() {
-            document.querySelector('#form-login').addEventListener
-            ('submit', function(event) {
+            document.querySelector('#form-login').addEventListener('submit', function(event) {
                 event.preventDefault();
                 var email = document.querySelector('#email').value;
                 var password = document.querySelector('#password').value;
                 var result = user.handleLogin(email, password);
 
-                if(result.length > 0) {
+                if (result.length > 0) {
                     alert('Đăng nhập thành công');
-                    console.log(result);
+                    localStorage.setItem('user', JSON.stringify(result));
+                    location.search = '';
                 } else {
                     alert('Đăng nhập thất bại');
                 }
-            })
-        })
+            });
+        });
     }
 }
